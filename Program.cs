@@ -1,5 +1,7 @@
-﻿Sum();
-Subtration();
+﻿//Sum();
+//Subtration();
+//Division();
+Multiplication();
 
 
 static void Sum(){
@@ -18,7 +20,7 @@ static void Sum(){
     //Para pular linha | To skip line
     Console.WriteLine("");
 
-    float resultado = number1+number2;
+    float resultado = number1 + number2;
 
     //Interpolação | Interpolation
     Console.WriteLine($"The result is: {resultado}");
@@ -41,6 +43,38 @@ static void Subtration(){
 
     Console.WriteLine("");
 
-    float resultado = number1-number2;
+    float resultado = number1 - number2;
     Console.WriteLine($"The result is: {resultado}");
+}
+
+static void Division(){
+    Console.Clear();
+
+    Console.WriteLine("Enter the first value: ");
+    float number1 = float.Parse(Console.ReadLine());
+
+    Console.WriteLine("Enter the second value: ");
+    float number2 = float.Parse(Console.ReadLine());
+
+    Console.WriteLine("");
+
+    float resultado = number1 / number2;
+    Console.WriteLine($"The result is: {resultado}");
+    Console.ReadKey();
+}    
+
+static void Multiplication(){
+    Console.Clear();
+
+    Console.WriteLine("Enter the first value: ");
+    float number1 = float.Parse(Console.ReadLine());
+
+    Console.WriteLine("Enter the second value: ");
+    float number2 = float.Parse(Console.ReadLine());
+
+    Console.WriteLine("");
+
+    float resultado = number1 * number2;
+    Console.WriteLine($"The result is: {resultado}");
+    Console.ReadKey();
 }

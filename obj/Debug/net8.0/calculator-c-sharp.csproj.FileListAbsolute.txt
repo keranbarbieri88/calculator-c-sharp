@@ -12,3 +12,4 @@ D:\Repositorios\calculator-c-sharp\obj\Debug\net8.0\refint\calculator-c-sharp.dl
 D:\Repositorios\calculator-c-sharp\obj\Debug\net8.0\calculator-c-sharp.pdb
 D:\Repositorios\calculator-c-sharp\obj\Debug\net8.0\calculator-c-sharp.genruntimeconfig.cache
 D:\Repositorios\calculator-c-sharp\obj\Debug\net8.0\ref\calculator-c-sharp.dll
+D:\Repositorios\calculator-c-sharp\obj\Debug\net8.0\calculator-c-sharp.sourcelink.json
